@@ -1,0 +1,7 @@
+.truncated {
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Adjust based on the approximate number of lines for 25 words */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
